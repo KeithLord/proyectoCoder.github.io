@@ -12,14 +12,17 @@
     <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="css/index.css">
     <title>Fitness Holistico</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
    <div class="grid__container">
-    <nav class="navbar">
+    <nav class="navbar"
+          data-aos="fade-left"
+          data-aos-duration="1000">
       <div>
         <a href="#"><img src="img/Logos/LogoS.png" alt="Logo" class="logo"></a>
       </div>
-      <ul class="navbar__links">
+      <ul class="navbar__links" >
         <a href="index.html" class=""><li>Inicio</li></a>
         <a href="pages/blog.html" class=""><li>Blog</li></a>
         <a href="pages/class.html" class=""><li>Clases</li></a>
@@ -35,19 +38,25 @@
     <main>
       <div>
         <div class="card__grid">
-          <div class="card">
+          <div class="card" 
+          data-aos="fade-right"
+          data-aos-duration="1000">
             <img src="../img/Logos/Logo.png" alt="" class="card__img">
             <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, illum at.
               Assumenda veniam quae a, facere optio cupiditate nemo animi quos accusantium illum laborum recusandae quis
               rerum, minus reprehenderit.</p>
           </div>
-          <div class="card">
+          <div class="card" 
+          data-aos="fade-down"
+          data-aos-duration="1000">
             <img src="../img/Logos/Logo.png" alt="" class="card__img">
             <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, illum at.
               Assumenda veniam quae a, facere optio cupiditate nemo animi quos accusantium illum laborum recusandae quis
               rerum, minus reprehenderit.</p>
           </div>
-          <div class="card">
+          <div class="card" 
+          data-aos="fade-left"
+          data-aos-duration="1000">
             <img src="../img/Logos/Logo.png" alt="" class="card__img">
             <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, illum at.
               Assumenda veniam quae a, facere optio cupiditate nemo animi quos accusantium illum laborum recusandae quis
@@ -72,6 +81,10 @@
       </div>
     </footer>
    </div>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
   </body>
 </html>
 
