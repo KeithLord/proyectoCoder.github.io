@@ -66,7 +66,6 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
         left: 0;
     }
    }
-  
 .grid__container{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
@@ -89,10 +88,11 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
     animation: fadein 2s;
     .logo{
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 20px;
         width:50px;
     }
     .navbar__links {
+        margin-bottom: 0px;
         a{
             display: inline-block;
             list-style-type: none;
@@ -115,10 +115,8 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
 .img__carrusel img{
     grid-area: header;
-    width:80vw;
     height:600px;
     margin:20px;
-    margin-left: 180px;
 }
 //Pagina Clases
 .title {
@@ -143,9 +141,6 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
 // Estilos Cards
 .card__grid{
     grid-area: cards;
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
     
    .card{
         background-color: #0DFF7C;

@@ -114,8 +114,12 @@ html::-webkit-scrollbar-thumb {
 
 .navbar .logo {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
   width: 50px;
+}
+
+.navbar .navbar__links {
+  margin-bottom: 0px;
 }
 
 .navbar .navbar__links a {
@@ -145,10 +149,8 @@ html::-webkit-scrollbar-thumb {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: header;
-  width: 80vw;
   height: 600px;
   margin: 20px;
-  margin-left: 180px;
 }
 
 .title {
@@ -180,11 +182,6 @@ html::-webkit-scrollbar-thumb {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: cards;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
 }
 
 .card__grid .card {
