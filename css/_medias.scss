@@ -1,0 +1,40 @@
+//MEDIA QUERIES
+@media (max-width: 991px) {
+    .navbar__links {
+      padding-top: 10px;
+      .nav-link {
+        padding-top: 20px;
+      }
+    }
+    .logo {
+      width: 80px;
+      padding-left: 20px;
+    }
+    .form {
+      width: 100vw;
+      margin-left: 0;
+      margin-bottom: 60vh;
+      .form__component {
+        width: 90vw;
+        margin-left: 5%;
+      }
+      .form__component--textarea {
+        width: 90vw;
+  
+        margin-left: 5%;
+      }
+      .btn {
+        width: 90vw;
+  
+        margin-left: 5%;
+      }
+    }
+    .clases {
+      display: flex;
+      flex-direction: column;
+      .clase {
+        margin-left: 8%;
+        width: 90vw;
+      }
+    }
+  }

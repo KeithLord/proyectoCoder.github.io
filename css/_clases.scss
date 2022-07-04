@@ -1,0 +1,13 @@
+//CLASES
+.clase {
+    height: 400px;
+  }
+  .title {
+    text-transform: uppercase;
+    color: #0dff7c;
+    font-size: 2em;
+    text-align: center;
+    animation: neonGlow 2s infinite alternate $easeInOutQuad;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
