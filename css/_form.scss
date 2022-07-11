@@ -20,6 +20,9 @@
       border: none;
       margin: 10px 0px 10px 100px;
     }
+    .btn-borrar{
+      @extend .btn;
+    }
     .form__component--textarea {
       width: 400px;
       margin: 10px 0px 10px 100px;
