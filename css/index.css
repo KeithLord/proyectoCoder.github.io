@@ -52,22 +52,6 @@ html::-webkit-scrollbar-thumb {
     text-shadow: 0 0 2px rgba(109, 253, 121, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(66, 220, 219, 0.8), 0 0 30px rgba(66, 220, 219, 0.8), 0 0 40px rgba(66, 220, 219, 0.8), 0 0 50px rgba(66, 220, 219, 0.5), 0 0 80px rgba(66, 220, 219, 0.5);
   }
 }
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .grid__container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -132,11 +116,24 @@ html::-webkit-scrollbar-thumb {
   margin-top: 5px;
   color: #511730;
 }
+.card__grid .img__blog {
+  margin-top: 10px;
+  border-radius: 5%;
+}
 .card__grid .card__img {
   margin-left: 28%;
   padding: 30px 0px 0px 0px;
   height: 150px;
   width: 150px;
+}
+.card__grid .card__desc {
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color: rgb(71, 63, 63);
+  margin-top: 10px;
+}
+.card__grid .more {
+  color: #000;
 }
 
 .img__carrusel img {
@@ -237,12 +234,10 @@ html::-webkit-scrollbar-thumb {
   .navbar__links .nav-link {
     padding-top: 20px;
   }
-
   .logo {
     width: 80px;
     padding-left: 20px;
   }
-
   .form {
     width: 100vw;
     margin-left: 0;
@@ -260,7 +255,6 @@ html::-webkit-scrollbar-thumb {
     width: 90vw;
     margin-left: 5%;
   }
-
   .clases {
     display: flex;
     flex-direction: column;

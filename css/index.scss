@@ -48,15 +48,6 @@ $easeInOutQuad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
       0 0 80px rgba(66, 220, 219, 0.5);
   }
 }
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 .grid__container {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
