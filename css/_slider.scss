@@ -1,7 +1,23 @@
-.img__carrusel img {
+/*.img__carrusel img {
     grid-area: header;
     height: 600px;
     width: 80%;
     margin-left: 10%;
     z-index: 5;
-  }
+  }*/
+
+.img-responsive{
+  width: 100%;
+  margin-top: 150px;
+  margin-left: 0px;
+}
+.img-responsive_2{
+  width: 100%;
+  margin-right: 20px;
+}
+.text-tittle{
+  margin-left: 10px;
+  margin-top: 50px;
+  color: rgb(204, 196, 196);
+  font-weight: 700;
+}
